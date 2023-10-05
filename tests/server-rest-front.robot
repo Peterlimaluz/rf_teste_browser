@@ -1,5 +1,6 @@
 *** Settings ***
 Resource    ../resources/server-rest-front.resource
+Suite Teardown    Close Browser    ALL
 
 
 *** Test Cases ***
